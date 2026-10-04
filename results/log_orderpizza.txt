@@ -1,0 +1,129 @@
+(aae) C:\Users\paying\Downloads\3183\audio_adversarial_examples>python attack.py --input sound_prompt\prompt_orderpizza.wav --outprefix adv --target "unlock the front door" --iterations 300 --restore_path deepspeech-0.9.3-checkpoint\best_dev-1466475 --scorer_path deepspeech-0.9.3-models.scorer --alphabet_config_path DeepSpeech\data\alphabet.txt
+source dB 82.53625869750977
+
+Attack phrase:  unlock the front door
+
+Initializing attack..
+
+Initialization done.
+
+Start attack..
+
+i will like to other large piece
+---------------------------------------------------------------------------------------------------------------------------------i---  wi-l-l-  -l-ikee- -t-o----  --o----the-r---- -----a------l--a--ggee-----  ---p-ee-c----------a-------------------------------------------------------------------------------------------------------------------------
+146.073          146.073
+112.208          112.208
+79.951   79.951
+75.334   75.334
+70.193   70.193
+62.580   62.580
+66.911   66.911
+54.637   54.637
+50.758   50.758
+59.689   59.689
+omelette in unison
+------------------------------------------------------------------------------------------------------------------------------ho-m--man---y---- -n-e-ck-- t--o---  --o---t-her---  -----an---  ---o--n-t--------- -p---i--s-----o-n---------------------------------------------------------------------------------------------------------------------------
+78.708   78.708
+69.520   69.520
+64.005   64.005
+53.636   53.636
+53.126   53.126
+51.518   51.518
+45.997   45.997
+48.427   48.427
+42.341   42.341
+37.369   37.369
+another ration
+-------------------------------------------------------------------------------------------------------------------------------u-n---------------n-a-c----t-o----  --o-----the-r--  ----a-r----r--o--n-t--------  --d--u----c---o-r---------------------------------------------------------------------------------------------------------------------------
+36.487   36.487
+42.564   42.564
+41.346   41.346
+35.874   35.874
+34.790   34.790
+32.075   32.075
+27.589   27.589
+24.595   24.595
+22.147   22.147
+20.088   20.088
+unlock other front door
+--------------------------------------------------------------------------------------------------------------------------------u-n--------------l-e-ck----------- ---o----ther---  ----a--f--rrr-o-n-t---------- --d--u-----s--o-r---------------------------------------------------------------------------------------------------------------------------
+21.725   21.725
+24.309   24.309
+23.768   23.768
+21.084   21.084
+18.862   18.862
+18.738   18.738
+20.924   20.924
+18.478   18.478
+16.951   16.951
+16.400   16.400
+unlock the front door
+--------------------------------------------------------------------------------------------------------------------------------u-n--------------l-o-ck-------------o------the-----  -----i----rr-o-n-t-------    --d--o---------o-r--------------------------------------------------------------------------------------------------------------------------
+14.960   14.960
+Worked i=0 ctcloss=14.960255 bound=1600.000024
+First hit for audio 0 at iteration 40
+16.353   16.353
+13.541   13.541
+13.941   13.941
+12.744   12.744
+10.781   10.781
+10.231   10.231
+9.178    9.178
+9.300    9.300
+7.452    7.452
+unlock the front door
+---------------------------------------------------------------------------------------------------------------------------------un--------------l-o-ck----- ---------------the---- -------f--rr-o-n-tt-------   ---d--o---------o-r--------------------------------------------------------------------------------------------------------------------------
+7.414    7.414
+Worked i=0 ctcloss=7.414117 bound=1280.000091
+9.048    9.048
+7.783    7.783
+8.753    8.753
+7.459    7.459
+6.193    6.193
+5.458    5.458
+5.196    5.196
+5.068    5.068
+5.211    5.211
+unlock the front door
+--------------------------------------------------------------------------------------------------------------------------------u-n--------------l-o-ck---- ---------------the-----  ----if---rrr-o-n-t-------    --d--o---------o-r--------------------------------------------------------------------------------------------------------------------------
+5.658    5.658
+Worked i=0 ctcloss=5.658324 bound=1024.000049
+7.269    7.269
+5.840    5.840
+5.485    5.485
+4.745    4.745
+4.392    4.392
+3.612    3.612
+3.360    3.360
+2.885    2.885
+2.935    2.935
+unlock the front door
+--------------------------------------------------------------------------------------------------------------------------------un---------------l-o-ck---  ---------------the----- ------f---rr--onn-t-------   ---d--o---------o-r--------------------------------------------------------------------------------------------------------------------------
+2.435    2.435
+Worked i=0 ctcloss=2.434779 bound=819.200039
+Traceback (most recent call last):
+  File "attack.py", line 408, in <module>
+    run_script()
+  File "attack.py", line 404, in run_script
+    absl.app.run(main)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\absl\app.py", line 308, in run
+    _run_main(main, args)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\absl\app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "attack.py", line 356, in main
+    finetune)
+  File "attack.py", line 241, in attack
+    feed_dict)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 956, in run
+    run_metadata_ptr)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 1180, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 1359, in _do_run
+    run_metadata)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 1365, in _do_call
+    return fn(*args)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 1350, in _run_fn
+    target_list, run_metadata)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 1443, in _call_tf_sessionrun
+    run_metadata)
+KeyboardInterrupt
