@@ -1,0 +1,111 @@
+(aae) C:\Users\paying\Downloads\3183\audio_adversarial_examples>python attack.py --input sample-000000.wav --outprefix adv --target "open the door" --iterations 300 --restore_path deepspeech-0.9.3-checkpoint\best_dev-1466475 --scorer_path deepspeech-0.9.3-models.scorer --alphabet_config_path DeepSpeech\data\alphabet.txt
+source dB 89.62971687316895
+
+Attack phrase:  open the door
+
+Initializing attack..
+
+Initialization done.
+
+Start attack..
+
+without the data the article useless
+-----------------------------w--it----t--ou--- -the--  -dh-a-t-----a--s-----s-a-t--  -the- -arr-t-ii----c-o-----s----- ---uu--se------l----e-s--s-------------
+129.605          129.605
+113.093          113.093
+74.476   74.476
+64.411   64.411
+47.919   47.919
+39.702   39.702
+29.368   29.368
+26.116   26.116
+22.154   22.154
+19.792   19.792
+on the
+----------------------------------------o--p----e-n---- th-e--------------------------------------------------------------------------------------------------
+18.245   18.245
+16.856   16.856
+15.295   15.295
+15.971   15.971
+23.478   23.478
+14.053   14.053
+15.782   15.782
+13.176   13.176
+11.548   11.548
+11.775   11.775
+open the door
+----------------------------------------o--p---e-n---- -the-------------------------------------dd------------------------------------------------------------
+10.860   10.860
+Worked i=0 ctcloss=10.859949 bound=1600.000024
+First hit for audio 0 at iteration 20
+10.095   10.095
+9.645    9.645
+8.780    8.780
+8.094    8.094
+7.188    7.188
+6.717    6.717
+5.790    5.790
+6.163    6.163
+7.472    7.472
+open the door
+---------------------------------------o--p---e-n----- -the--------------------------------------d----------o--------------------------o--r-------------------
+6.236    6.236
+Worked i=0 ctcloss=6.235667 bound=1280.000091
+6.762    6.762
+5.656    5.656
+5.430    5.430
+5.796    5.796
+4.752    4.752
+4.347    4.347
+4.496    4.496
+4.080    4.080
+3.829    3.829
+open the door
+----------------------------------------o-pp--e-n----- t-he------------------------- ------------d----------o--------------------------o--r-------------------
+3.502    3.502
+Worked i=0 ctcloss=3.502088 bound=1024.000049
+3.990    3.990
+4.082    4.082
+4.089    4.089
+3.658    3.658
+3.676    3.676
+3.256    3.256
+3.096    3.096
+3.127    3.127
+2.905    2.905
+open the door
+----------------------------------------o-pp---en----- t-he------------------------- ------------d----------o--------------------------o--r-------------------
+2.569    2.569
+Worked i=0 ctcloss=2.568860 bound=819.200039
+4.159    4.159
+3.342    3.342
+3.140    3.140
+2.757    2.757
+2.875    2.875
+2.671    2.671
+Traceback (most recent call last):
+  File "attack.py", line 408, in <module>
+    run_script()
+  File "attack.py", line 404, in run_script
+    absl.app.run(main)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\absl\app.py", line 308, in run
+    _run_main(main, args)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\absl\app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "attack.py", line 356, in main
+    finetune)
+  File "attack.py", line 241, in attack
+    feed_dict)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 956, in run
+    run_metadata_ptr)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 1180, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 1359, in _do_run
+    run_metadata)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 1365, in _do_call
+    return fn(*args)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 1350, in _run_fn
+    target_list, run_metadata)
+  File "C:\Users\paying\anaconda3\envs\aae\lib\site-packages\tensorflow_core\python\client\session.py", line 1443, in _call_tf_sessionrun
+    run_metadata)
+KeyboardInterrupt
