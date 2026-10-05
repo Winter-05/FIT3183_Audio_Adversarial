@@ -1,0 +1,27 @@
+01.wav-08.wav are the AEs used for the comparison tests with different approaches of Table 3 (Section 6.4) and Human Perception 
+study (Section 6.5). 01_TTS_music.wav~08_TTS_music.wav are the "Original song + TTS" audios of Table 3. The injected commands in 
+them are as follows.
+
+Target IVC service: Google Assistant
+
+    01.wav/01_TTS_music.wav - Okay Google, take a picture.            demo of 01.wav: https://youtu.be/7HRn3m-Z-GU   SRoA: 5/30
+
+    02.wav/02_TTS_music.wav - Okay Google, navigate to my home.       demo of 02.wav: https://youtu.be/6124d5NsOG4   SRoA: 18/30
+
+Target IVC service: Google Home
+
+    03.wav/03_TTS_music.wav - Okay Google, turn off the light.        demo of 03.wav: https://youtu.be/SziQKC9MctM   SRoA: 15/30
+
+    04.wav/04_TTS_music.wav - Okay Google, play music.                demo of 04.wav: https://youtu.be/hL7yPXqK7Ws   SRoA:28/30
+
+Target IVC service: Microsoft Cortana
+
+    05.wav/05_TTS_music.wav - Hey Cortana, open the website.          demo of 05.wav: https://youtu.be/8HQjI_q6YVI   SRoA：29/30
+
+    06.wav/06_TTS_music.wav - Hey Cortana, make it warmer.            demo of 06.wav: https://youtu.be/no_R5PQr1F8   SRoA：18/30
+
+Target IVC service: Amazon Echo
+
+    07.wav/07_TTS_music.wav - Echo, call my wife.                     demo of 07.wav: https://youtu.be/XFuzIVkMUBk   SRoA: 17/30                                   
+
+    08.wav/08_TTS_musicwav - Echo, turn off the computer.             demo of 08.wav: https://youtu.be/amL2XU4--20   SRoA: 11/30
