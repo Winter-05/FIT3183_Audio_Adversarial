@@ -5,6 +5,8 @@
 ## This program is licenced under the BSD 2-Clause licence,
 ## contained in the LICENCE file in this directory.
 
+import os
+
 import numpy as np
 import tensorflow as tf
 from shutil import copyfile
@@ -282,6 +284,11 @@ class Attack:
                     # Just for debugging, save the adversarial example
                     # to /tmp so we can see it if we want
                     wav.write("tmp/adv.wav", 16000,
+                              np.array(np.clip(np.round(new_input[ii]),
+                                               -2**15, 2**15-1),dtype=np.int16))
+                    
+                    os.makedirs("tmp/hits", exist_ok=True)
+                    wav.write("tmp/hits/hit_%04d.wav" % i, 16000,
                               np.array(np.clip(np.round(new_input[ii]),
                                                -2**15, 2**15-1),dtype=np.int16))
         
