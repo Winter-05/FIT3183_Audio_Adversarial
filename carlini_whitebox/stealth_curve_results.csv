@@ -1,0 +1,24 @@
+file,peak_distortion_dB,clean_output,noise_output,mp3_output,clean_hit,noise_hit,mp3_hit
+hit_0000,-20.3,send one thousand dollars,send one thousand dollars,and one thousand dollars,True,True,False
+hit_0010,-22.3,send one thousand dollars,send one thousand dollars,and one thousand dollars,True,True,False
+hit_0020,-24.2,send one thousand dollars,send one thousand dollars,send one thousand dollars,True,True,True
+hit_0030,-26.2,send one thousand dollars,send one thousand dollars,send one thousand dollars,True,True,True
+hit_0040,-28.1,send one thousand dollars,send one thousand dollars,send one thousand dollars,True,True,True
+hit_0050,-30.0,send one thousand dollars,send one thousand dollars,send one thousand dollars,True,True,True
+hit_0050_backup,-20.3,send one thousand dollars,send one thousand dollars,and one thousand dollars,True,True,False
+hit_0060,-32.0,send one thousand dollars,send one thousand dollars,send one thousand dollars,True,True,True
+hit_0070,-33.9,send one thousand dollars,send one thousand dollars,and one thousand dollars,True,True,False
+hit_0080,-35.8,send one thousand dollars,send one thousand dollars,and one thousand dollars,True,True,False
+hit_0090,-37.8,send one thousand dollars,send one thousand dollars,and one thousand dollars,True,True,False
+hit_0100,-39.7,send one thousand dollars,send one thousand dollars,send one thousand dollars,True,True,True
+hit_0110,-41.6,send one thousand dollars,send one thousand dollars,and one thousand dollars,True,True,False
+hit_0120,-43.6,send one thousand dollars,send one thousand dollars,and one fusiliers,True,True,False
+hit_0130,-45.5,send one thousand dollars,send me furriners,and he fusiliers,True,False,False
+hit_0140,-47.5,send one thousand dollars,and he foretellers,and he evinces,True,False,False
+hit_0150,-49.5,send one thousand dollars,and he evinces,send me fardingales,True,False,False
+hit_0160,-51.4,send one thousand dollars,the firing colors,and he evinces,True,False,False
+hit_0180,-53.3,send one thousand dollars,the firing colors,send me furriners,True,False,False
+hit_0220,-55.2,send one thousand dollars,the feringhees bloom,send me furriners,True,False,False
+hit_0280,-57.1,send one thousand dollars,the feringhees,send me fainter,True,False,False
+hit_0360,-59.1,send one thousand dollars,the feringhees bloom,send one tarantulers,True,False,False
+hit_0610,-61.3,send one thousand dollars,the feringhees bloom,send me seventoes,True,False,False
